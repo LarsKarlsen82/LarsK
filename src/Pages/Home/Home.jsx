@@ -8,7 +8,7 @@ const Home = () => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 min-h-screen flex items-center justify-center">
+    <div className="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 min-h-screen flex flex-col items-center justify-center">
       <div className="text-white text-center">
         <h1 className="text-4xl font-bold mb-4">Velkommen til min side</h1>
         <p className="text-lg">
@@ -23,16 +23,16 @@ const Home = () => {
             Get Started
           </a>
         </div>
-      </div>
-      {/* Smiley Element with inline style for animation */}
-      <div
-        className="text-2xl"
-        style={{
-          transform: `translateX(${smileyPosition}px)`,
-          transition: 'transform 1s ease-in-out',
-        }}
-      >
-        😊
+        {/* Smiley Element with inline style for animation */}
+        <div
+          className="text-2xl mt-4"
+          style={{
+            transform: `translateX(${smileyPosition}px)`,
+            transition: 'transform 1s ease-in-out',
+          }}
+        >
+          😊
+        </div>
       </div>
     </div>
   );
