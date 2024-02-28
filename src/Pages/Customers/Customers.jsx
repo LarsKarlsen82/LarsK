@@ -9,7 +9,7 @@ const Customers = () => {
         {/* Customer 1 */}
         <div className="group bg-gray-100 p-4 rounded-lg overflow-hidden hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
           <img
-            src="src/Assets/img/Bridge.jpg"  // Replace with actual image source
+            src="src/Assets/images/Bridge.jpg"  // Replace with actual image source
             alt="Customer 1"
             className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
           />
@@ -21,7 +21,7 @@ const Customers = () => {
         {/* Customer 2 */}
         <div className="group bg-gray-100 p-4 rounded-lg overflow-hidden hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
           <img
-            src="src/Assets/img/FlightMode.jpg"  // Replace with actual image source
+            src="src/Assets/images/FlightMode.jpg"  // Replace with actual image source
             alt="Customer 2"
             className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
           />
@@ -33,7 +33,7 @@ const Customers = () => {
         {/* Customer 3 */}
         <div className="group bg-gray-100 p-4 rounded-lg overflow-hidden hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
           <img
-            src="src/Assets/img/House.jpg"  // Replace with actual image source
+            src="src/Assets/images/House.jpg"  // Replace with actual image source
             alt="Customer 3"
             className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
           />
@@ -45,7 +45,7 @@ const Customers = () => {
         {/* Customer 4 */}
         <div className="group bg-gray-100 p-4 rounded-lg overflow-hidden hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
           <img
-            src="src/Assets/img/Lighthouse.jpg"  // Replace with actual image source
+            src="src/Assets/images/Lighthouse.jpg"  // Replace with actual image source
             alt="Customer 3"
             className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
           />
@@ -57,7 +57,7 @@ const Customers = () => {
         {/* Customer 5 */}
         <div className="group bg-gray-100 p-4 rounded-lg overflow-hidden hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
           <img
-            src="src/Assets/img/Mountain.jpg"  // Replace with actual image source
+            src="src/Assets/images/Mountain.jpg"  // Replace with actual image source
             alt="Customer 3"
             className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
           />
@@ -69,7 +69,7 @@ const Customers = () => {
         {/* Customer 6 */}
         <div className="group bg-gray-100 p-4 rounded-lg overflow-hidden hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
           <img
-            src="src/Assets/img/Rocks.jpg"  // Replace with actual image source
+            src="src/Assets/images/Rocks.jpg"  // Replace with actual image source
             alt="Customer 3"
             className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
           />

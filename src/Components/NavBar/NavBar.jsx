@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 
 // Import your logo image
-import LogoImage from '../../Assets/Img/Logo.jpg';
+import LogoImage from '../../Assets/images/Logo.jpg';
 
 const NavBar = () => {
   const [isMenuVisible, setMenuVisible] = useState(false);
