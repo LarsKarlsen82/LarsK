@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 const Home = () => {
-  const [carPosition, setCarPosition] = useState(0);
+  const [smileyPosition, setSmileyPosition] = useState(0);
 
-  const moveCar = () => {
-    setCarPosition((prevPosition) => prevPosition + 50); // Adjust the value based on your design
+  const moveSmiley = () => {
+    setSmileyPosition((prevPosition) => prevPosition + 50); // Adjust the value based on your design
   };
 
   return (
@@ -18,21 +18,21 @@ const Home = () => {
           <a
             href="#"
             className="bg-white text-indigo-500 px-6 py-3 rounded-full hover:bg-indigo-500 hover:text-white transition duration-300"
-            onClick={moveCar}
+            onClick={moveSmiley}
           >
             Get Started
           </a>
         </div>
       </div>
-      {/* Car Element with inline style for animation */}
+      {/* Smiley Element with inline style for animation */}
       <div
         className="text-2xl"
         style={{
-          transform: `translateX(${carPosition}px)`,
+          transform: `translateX(${smileyPosition}px)`,
           transition: 'transform 1s ease-in-out',
         }}
       >
-        🚗
+        😊
       </div>
     </div>
   );
