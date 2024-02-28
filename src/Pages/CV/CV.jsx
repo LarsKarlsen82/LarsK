@@ -80,7 +80,7 @@ const CV = () => {
       <div>
         <span className="font-extrabold text-teal-600">2016 aug. - 2019 sep</span>
         <br /> <br />
-        <span className="font-bold">Uddannelsesstyrelsen, </span> Nuuk <br />
+        <span className="font-bold">Uddannelses styrelsen, </span> Nuuk <br />
         <span className="italic"> TNI-praktikant</span> <br />
         <span className='font-bold'>Arbejdsopgaver:</span> Kontorarbejde, bestilling og telefon support
       </div>
