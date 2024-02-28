@@ -19,7 +19,7 @@ const CV = () => {
              Som medarbejder er jeg flink, lærenem og god til at holde hovedet koldt - selv i pressede situationer.
              Som kollega bidrager jeg med et godt humør. Jeg arbejder fint med andre i teams og kan sagtens arbejde selvstændigt.
             Jeg finder det vigtigt at yde et godt service til kunder eller brugere samt at have godt samarbejde med kollega.
-            Jeg søger primært jobs i Aalborg, hvor jeg kan komme til med offentlig transport og kan arbejde dag og weekendarbejde.
+            
           </p>
          </div>
 
