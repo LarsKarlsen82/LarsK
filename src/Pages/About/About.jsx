@@ -14,7 +14,7 @@ const About = () => {
           />
         </div>
         <div className="pt-6 md:p-8 md:pl-6 text-center md:text-left space-y-4">
-          <blockquote className="text-lg font-medium">
+          <blockquote className="text-lg font-medium text-slate-700 dark:text-slate-500">
             "Mit navn er Lars, og jeg er en veluddannet IT-supporter med kompetencer inden 
             for webudvikling samt erfaring inden for kontor- og butiksdrift. 
             Jeg besidder en bred vifte af færdigheder, der gør mig i stand til at håndtere udfordringer inden for IT-support og 
