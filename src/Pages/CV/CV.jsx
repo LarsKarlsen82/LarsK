@@ -60,7 +60,7 @@ const CV = () => {
     <h3 className="text-xl font-bold mb-2">Erhvervserfaring</h3>
     <br />
     {/* Work experiences with tabs */}
-    <div className="grid grid-cols-2 gap-4">
+    <div className="grid grid-cols-2 gap-6">
       <div>
         <span className="font-extrabold text-lime-500">2023 feb - 2023 maj</span>
         <br /> <br />
