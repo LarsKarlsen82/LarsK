@@ -12,7 +12,7 @@ const Home = () => {
       <div className="text-white text-center">
         <h1 className="text-4xl font-bold mb-4">Velkommen til min side</h1>
         <p className="text-lg">
-          Discover amazing content and explore exciting features.
+          Denne Web App er for at vise hvad jeg kan med webudvikling
         </p>
         <div className="mt-8">
           <a
