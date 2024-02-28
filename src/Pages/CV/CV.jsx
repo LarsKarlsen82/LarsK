@@ -28,7 +28,9 @@ const CV = () => {
           <h3 className="text-xl font-bold mb-2">Kompetencer</h3>
           <ul className="list-disc list-inside pl-4">
             <li>Kundeservice - Har masser af erfaring med at supportere forskellige brugere via telefon og ved siden af brugeren samt besvare e-mails.</li>
+            <br />
             <li>Kommunikation - Gode dansk og engelske sprogkundskaber både mundtligt og skriftligt.</li>
+            <br />
             <li>IT - Vant til IT-support, software og hardware opgraderinger. Rigtig god til at bruge MS Office (Word, Excel, PowerPoint og Outlook) og webudvikling.</li>
           </ul>
          </div>
