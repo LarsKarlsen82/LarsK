@@ -11,7 +11,7 @@ const NoPage = () => {
       <img
         src={errorGif}
         alt="404 Not Found"
-        className="max-w-full h-auto"
+        className="max-w-96 h14"
       />
     </div>
   );
