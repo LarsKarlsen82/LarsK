@@ -118,7 +118,7 @@ const CV = () => {
       </div>
 
       <div>
-        <span className="font-extrabold text-teal-600">2011 jan. - 2015 nov.</span>
+        <span className="font-extrabold text-teal-600">1997 - 1999</span>
         <br /> <br />
         <span className="font-bold">Brugseneeraq, </span> Maniitsoq <br />
         <span className="italic"> Butiksmedarbejder</span> <br />

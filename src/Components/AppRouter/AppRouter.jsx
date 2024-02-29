@@ -6,6 +6,7 @@ import Home from '../../Pages/Home/Home';
 import Customers from '../../Pages/Customers/Customers';
 import SignUp from '../../Pages/SignUp/SignUp';
 import CV from '../../Pages/CV/CV';
+import NoPage from '../../Pages/NoPage/NoPage';
 
 const AppRouter = () => {
   return (
@@ -17,6 +18,7 @@ const AppRouter = () => {
         <Route path="/customers" element={<Customers />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/cv" element={<CV />} />
+        <Route path="*" element={<NoPage />} />
       </Routes>
     </Router>
   );
