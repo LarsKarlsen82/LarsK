@@ -139,7 +139,7 @@ const Home = () => {
       });
 
       // Stop animation after a certain duration (adjust as needed)
-      const animationDuration = 5000; // milliseconds
+      const animationDuration = 20000; // milliseconds
       setTimeout(() => {
         setIsAnimationPlaying(false);
       }, animationDuration);
