@@ -1,4 +1,6 @@
+
 // import React, { useState } from 'react';
+// import backgroundImage from '/images/NL.jpg'; 
 
 // const Home = () => {
 //   const [smileyPosition, setSmileyPosition] = useState(0);
@@ -8,7 +10,15 @@
 //   };
 
 //   return (
-//     <div className="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 min-h-screen flex flex-col items-center justify-center">
+//     <div
+//       className="min-h-screen flex flex-col items-center justify-center"
+//       style={{
+//         backgroundImage: `url(${backgroundImage})`,
+//         backgroundSize: 'cover',
+//         backgroundPosition: 'center',
+//         backgroundRepeat: 'no-repeat',
+//       }}
+//     >
 //       <div className="text-white text-center">
 //         <h1 className="text-4xl font-bold mb-4">Velkommen til min side</h1>
 //         <p className="text-lg">
@@ -41,19 +51,104 @@
 // export default Home;
 
 
-import React, { useState } from 'react';
-import backgroundImage from '/images/NL.jpg'; 
+import React, { useState, useEffect } from 'react';
+import backgroundImage from '/images/NL.jpg';
 
 const Home = () => {
   const [smileyPosition, setSmileyPosition] = useState(0);
+  const [isAnimationPlaying, setIsAnimationPlaying] = useState(false);
 
   const moveSmiley = () => {
-    setSmileyPosition((prevPosition) => prevPosition + 50); // Adjust the value based on your design
+    setSmileyPosition((prevPosition) => prevPosition + 50);
+    setIsAnimationPlaying(true);
   };
+
+  useEffect(() => {
+    if (isAnimationPlaying) {
+      const canvas = document.getElementById('canvas');
+      const context = canvas.getContext('2d');
+
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      const particles = [];
+      const numParticles = Math.min(Math.floor(canvas.width * canvas.height / 5000), 300);
+
+      class Particle {
+        constructor() {
+          this.x = Math.random() * canvas.width;
+          this.y = Math.random() * canvas.height;
+          this.vx = Math.random() * 2 - 1;
+          this.vy = Math.random() * 2 - 1;
+          this.radius = Math.random() * 3 + 1;
+          this.color = `rgba(255, 255, 255, ${Math.random()})`;
+        }
+
+        update() {
+          this.x += this.vx;
+          this.y += this.vy;
+
+          if (this.x < 0 || this.x > canvas.width) {
+            this.vx *= -1;
+          }
+
+          if (this.y < 0 || this.y > canvas.height) {
+            this.vy *= -1;
+          }
+        }
+
+        draw() {
+          context.beginPath();
+          context.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+          context.fillStyle = this.color;
+          context.fill();
+        }
+      }
+
+      function createParticles() {
+        for (let i = 0; i < numParticles; i++) {
+          particles.push(new Particle());
+        }
+      }
+
+      function animate() {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+
+        particles.forEach((particle) => {
+          particle.update();
+          particle.draw();
+        });
+
+        requestAnimationFrame(animate);
+      }
+
+      createParticles();
+      animate();
+
+      canvas.addEventListener('mousemove', (event) => {
+        particles.forEach((particle) => {
+          const dx = particle.x - event.clientX;
+          const dy = particle.y - event.clientY;
+          const distance = Math.sqrt(dx * dx + dy * dy);
+
+          if (distance < 100) {
+            particle.vx = dx * 0.05;
+            particle.vy = dy * 0.05;
+          }
+        });
+      });
+
+      // Stop animation after a certain duration (adjust as needed)
+      const animationDuration = 5000; // milliseconds
+      setTimeout(() => {
+        setIsAnimationPlaying(false);
+      }, animationDuration);
+    }
+  }, [isAnimationPlaying]);
 
   return (
     <div
-      className="min-h-screen flex flex-col items-center justify-center"
+      className="min-h-screen flex flex-col items-center justify-center relative"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover',
@@ -67,13 +162,12 @@ const Home = () => {
           Denne Web App er for at vise hvad jeg kan med webudvikling, klik på NavLinks
         </p>
         <div className="mt-8">
-          <a
-            href="#"
+          <button
             className="bg-white text-indigo-500 px-6 py-3 rounded-full hover:bg-indigo-500 hover:text-white transition duration-300"
             onClick={moveSmiley}
           >
             Get Started
-          </a>
+          </button>
         </div>
         {/* Smiley Element with inline style for animation */}
         <div
@@ -85,9 +179,12 @@ const Home = () => {
         >
           😊
         </div>
+        {/* Canvas for particle animation */}
+        {isAnimationPlaying && <canvas id="canvas" className="absolute top-0 left-0 w-full h-full"></canvas>}
       </div>
     </div>
   );
 };
 
 export default Home;
+
