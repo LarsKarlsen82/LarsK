@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
 
         <div className="w-full md:w-1/3 mb-8 md:mb-0">
-          <h3 className="text-2xl font-bold mb-4">Info:</h3>
+          <h3 className="text-2xl font-bold mb-4">Info</h3>
           <p>MAIL: <a href="mailto:Lars.Karlsen@gmail.com">Lars.Karlsen@gmail.com</a></p>
           <p>MOBIL: +45 81 94 68 96</p>
         </div>
