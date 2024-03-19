@@ -67,12 +67,7 @@ const NavBar = () => {
               </li>
               <li>
               <Link to="/cv" className="md:p-4 py-2 block hover:text-purple-400">
-                  CV
-                </Link>
-              </li>
-              <li>
-              <Link to="/signup" className="md:p-4 py-2 block hover:text-purple-400">
-                  Tilmeld
+                  Mit CV
                 </Link>
               </li>
             </ul>
