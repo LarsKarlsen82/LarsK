@@ -61,8 +61,8 @@ const NavBar = () => {
                 </Link>
               </li>
               <li>
-              <Link to="/customers" className="md:p-4 py-2 block hover:text-purple-400">
-                  Stuff
+              <Link to="/learn" className="md:p-4 py-2 block hover:text-purple-400">
+                  Hvad kan jeg?
                 </Link>
               </li>
               <li>
