@@ -97,6 +97,22 @@ const Learn = () => {
           opbygge funktionelle og skalerbare applikationer.
           </p>
         </div>
+
+                {/* Customer 5 */}
+                <div className="group bg-gray-100 p-4 rounded-lg overflow-hidden hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
+          <img
+            src="/images/IT.jpg"  // Replace with actual image source
+            alt="Customer 3"
+            className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
+          />
+          <p className="text-gray-700">
+        
+          Som IT-supporter betyder det at tilbyde teknisk hjælp og løsninger til brugere, 
+          der oplever problemer med deres it-udstyr, software eller netværk. 
+          At være dygtig til IT-support indebærer at have en solid forståelse for 
+          teknologi og være i stand til at hjælpe brugere med at løse deres it-relaterede problemer og spørgsmål.
+          </p>
+        </div>
       </div>
     </div>
   );
