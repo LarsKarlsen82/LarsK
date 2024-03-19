@@ -45,7 +45,7 @@ const Learn = () => {
         {/* Customer 4 */}
         <div className="group bg-gray-100 p-4 rounded-lg overflow-hidden hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
           <img
-            src="/images/Lighthouse.jpg"  // Replace with actual image source
+            src="/images/TailWindCSS.png"  // Replace with actual image source
             alt="Customer 3"
             className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
           />
@@ -57,7 +57,7 @@ const Learn = () => {
         {/* Customer 5 */}
         <div className="group bg-gray-100 p-4 rounded-lg overflow-hidden hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
           <img
-            src="/images/Mountain.jpg"  // Replace with actual image source
+            src="/images/Vite.jpg"  // Replace with actual image source
             alt="Customer 3"
             className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
           />
@@ -69,7 +69,7 @@ const Learn = () => {
         {/* Customer 6 */}
         <div className="group bg-gray-100 p-4 rounded-lg overflow-hidden hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
           <img
-            src="/images/Rocks.jpg"  // Replace with actual image source
+            src="/images/SUpabase.png"  // Replace with actual image source
             alt="Customer 3"
             className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
           />
