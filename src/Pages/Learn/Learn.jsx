@@ -14,7 +14,11 @@ const Learn = () => {
             className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
           />
           <p className="text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          
+          HTML er for mig en afgørende komponent i opbygningen af det digitale landskab. 
+          Det er ikke bare en samling af koder, men et sprog, der giver mig mulighed for at formidle idéer og skabe interaktivitet på nettet. 
+          Med HTML kan jeg strukturere og præsentere indhold på en klar og forståelig måde, hvilket gør det muligt for mig at skabe weboplevelser, der engagerer og informerer brugerne. 
+          Det er en kraftfuld værktøj, der åbner døre til en verden af ​​muligheder inden for webudvikling.
           </p>
         </div>
 
@@ -26,7 +30,10 @@ const Learn = () => {
             className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
           />
           <p className="text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            
+          Jeg er fortrolig med CSS og bruger det til at designe og style websider og applikationer. 
+          CSS giver mig kontrol over layout, farver, skrifttyper og andre visuelle elementer, 
+          så jeg kan skabe æstetisk tiltalende og funktionelle brugergrænseflader.
           </p>
         </div>
 
@@ -38,7 +45,9 @@ const Learn = () => {
             className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
           />
           <p className="text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Jeg har erfaring med JavaScript (JS) og bruger det til at tilføje interaktivitet og dynamik til websider og applikationer. 
+          Med JS kan jeg manipulere DOM'en (Document Object Model), håndtere brugerinteraktioner, foretage HTTP-anmodninger til serveren og meget mere. 
+          Jeg anvender JS til at skabe responsiv og engagerende brugeroplevelser på tværs af forskellige enheder og platforme.
           </p>
         </div>
 
@@ -50,7 +59,8 @@ const Learn = () => {
             className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
           />
           <p className="text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Jeg bruger Tailwind CSS til hurtigt at style websider og applikationer ved hjælp af genanvendelige utility-klasser. 
+          Tailwind's utility-first tilgang gør det nemt at opbygge og tilpasse designs på en effektiv måde.
           </p>
         </div>
 
@@ -62,19 +72,29 @@ const Learn = () => {
             className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
           />
           <p className="text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          
+          Jeg er fortrolig med Vite, som er et moderne byggeværktøj til udvikling af webapplikationer. 
+          Specifikt med React, Vite gør det muligt at opbygge og køre React-projekter med hurtigere byggetider 
+          og en mere glat udviklingsoplevelse. Det udnytter moderne JavaScript-moduleringsmetoder og 
+          udnytter mulighederne for hurtig udvikling og live-ændring, hvilket gør det til et kraftfuldt 
+          værktøj til React-udvikling.
           </p>
         </div>
 
         {/* Customer 6 */}
         <div className="group bg-gray-100 p-4 rounded-lg overflow-hidden hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
           <img
-            src="/images/SUpabase.png"  // Replace with actual image source
+            src="/images/Supabase.png"  // Replace with actual image source
             alt="Customer 3"
             className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
           />
           <p className="text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+          Supabase er en platform, der giver udviklere mulighed for at bygge og administrere bagsiden 
+          af deres web- og mobilapplikationer. Det tilbyder funktioner som brugerstyring, 
+          databasehåndtering og realtidsopdateringer. Med Supabase kan udviklere oprette 
+          og administrere databaser og brugerkonti på en nem måde, hvilket gør det lettere at 
+          opbygge funktionelle og skalerbare applikationer.
           </p>
         </div>
       </div>
