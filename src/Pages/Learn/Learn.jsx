@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Customers = () => {
+const Learn = () => {
   return (
     <div className="container mx-auto my-8">
-      <h2 className="text-3xl font-bold mb-4 pl-4">Stuff</h2>
+      <h2 className="text-3xl font-bold mb-4 pl-4">Hvad kan jeg?</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {/* Customer 1 */}
@@ -82,4 +82,4 @@ const Customers = () => {
   );
 };
 
-export default Customers;
+export default Learn;
