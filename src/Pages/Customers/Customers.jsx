@@ -9,7 +9,7 @@ const Customers = () => {
         {/* Customer 1 */}
         <div className="group bg-gray-100 p-4 rounded-lg overflow-hidden hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
           <img
-            src="/images/html-elements.jpg"  // Replace with actual image sources
+            src="/images/1.jpg"  // Replace with actual image sources
             alt="Customer 1"
             className="w-full h-40 object-cover mb-4 rounded-lg transition duration-300 ease-in-out transform group-hover:scale-110"
           />
