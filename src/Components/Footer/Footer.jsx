@@ -36,7 +36,7 @@ const Footer = () => {
             >
               <FaLinkedin className="text-3xl" />
             </a>
-            <a
+            {/* <a
               href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -50,7 +50,7 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <FaTwitter className="text-3xl" />
-            </a>
+            </a> */}
           </div>
         </div>
               {/* Add a new div for copyright */}
