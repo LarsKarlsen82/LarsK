@@ -7,7 +7,7 @@ const About = () => {
         <div className="group">
           <img
             className="w-64 h-64 md:w-1/2 md:h-auto md:rounded-none rounded-full mx-auto transition-transform duration-300 ease-in-out transform group-hover:scale-110 pl-2 pb-8"
-            src="/images/Lars.jpg"
+            src="/image/mig.png"
             alt=""
             width="384"
             height="512"
