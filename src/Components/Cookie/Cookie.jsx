@@ -24,7 +24,7 @@ const CookieConsent = () => {
   }
 
   return (
-    <div className="fixed bottom-0 left-0 w-full bg-gray-800 text-white py-4 text-center">
+    <div className="fixed bottom-0 left-0 w-full bg-gray-800 text-white py-4 text-center z-10">
       <div className="container mx-auto">
         <p className="mb-2">This website uses cookies to ensure you get the best experience.</p>
         <div className="flex justify-center space-x-4">
