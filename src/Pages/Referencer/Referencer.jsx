@@ -14,10 +14,10 @@ const Referencer = () => {
 
       <div className="flex flex-wrap">
         <div className="w-full md:w-1/2 mt-4 pr-2">
-          <embed src="/public/Udtalelse-Lars-karlsen.pdf" type="application/pdf" width="100%" height="600px" />
+          <embed src="/Udtalelse-Lars-karlsen.pdf" type="application/pdf" width="100%" height="600px" />
         </div>
         <div className="w-full md:w-1/2 mt-4 pl-2">
-          <embed src="/public/Udtalelser.pdf" type="application/pdf" width="100%" height="600px" />
+          <embed src="/Udtalelser.pdf" type="application/pdf" width="100%" height="600px" />
         </div>
       </div>
     </div>
