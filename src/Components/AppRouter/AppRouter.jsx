@@ -6,6 +6,7 @@ import Home from '../../Pages/Home/Home';
 import Learn from '../../Pages/Learn/Learn';
 import CV from '../../Pages/CV/CV';
 import NoPage from '../../Pages/NoPage/NoPage';
+import Referencer from '../../Pages/Referencer/Referencer';
 
 const AppRouter = () => {
   return (
@@ -17,6 +18,7 @@ const AppRouter = () => {
         <Route path="/learn" element={<Learn />} />
         <Route path="/cv" element={<CV />} />
         <Route path="*" element={<NoPage />} />
+        <Route path="referencer" element={<Referencer />} />
       </Routes>
     </Router>
   );

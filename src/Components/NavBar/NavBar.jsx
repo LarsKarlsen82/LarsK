@@ -70,6 +70,11 @@ const NavBar = () => {
                   Mit CV
                 </Link>
               </li>
+              <li>
+              <Link to="/referencer" className="md:p-4 py-2 block hover:text-purple-400">
+                  Referencer
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>
