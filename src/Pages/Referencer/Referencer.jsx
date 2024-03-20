@@ -10,6 +10,7 @@ const Referencer = () => {
       <br />
       <p>Kommuneqarfik Sermersooq, IT Chef, Michael L. Williams, tlf.: 81929377 efter kl 16</p>
       <br />
+      <p>test</p>
 
       <div className="flex flex-wrap">
         <div className="w-full md:w-1/2 mt-4 pr-2">
