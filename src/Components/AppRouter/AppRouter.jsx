@@ -1,3 +1,4 @@
+// AppRouter.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from '../NavBar/NavBar';
@@ -9,24 +10,21 @@ import NoPage from '../../Pages/NoPage/NoPage';
 import Referencer from '../../Pages/Referencer/Referencer';
 import Terminator from '../../Pages/Test/Terminator';
 
-
 const AppRouter = () => {
   return (
     <Router>
       <NavBar />
-        <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/learn" element={<Learn />} />
         <Route path="/cv" element={<CV />} />
+        <Route path="/referencer" element={<Referencer />} />
+        <Route path="/terminator" element={<Terminator />} />
         <Route path="*" element={<NoPage />} />
-        <Route path="referencer" element={<Referencer />} />
-        <Route path="terminator" element={<Terminator />} />
-        
       </Routes>
     </Router>
   );
 };
-
 
 export default AppRouter;
