@@ -375,7 +375,7 @@ const Home = () => {
             className="bg-white text-indigo-500 px-6 py-3 rounded-full hover:bg-indigo-500 hover:text-white transition duration-300"
             onClick={startParticleAnimation}
           >
-            Get Started
+            Klik på mig 😊
           </button>
         </div>
         <style>
