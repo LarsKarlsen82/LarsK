@@ -7,7 +7,7 @@ const Terminator = () => {
   const terminatorUrl = '/terminator.html';
 
   return (
-    <iframe src={terminatorUrl} title="Terminator" width="100%" height="600vh" frameBorder="0" />
+    <iframe src={terminatorUrl} title="Terminator" width="100%" height="620vh" frameBorder="0" />
   );
 };
 
