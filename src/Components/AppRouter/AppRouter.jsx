@@ -8,6 +8,7 @@ import CV from '../../Pages/CV/CV';
 import NoPage from '../../Pages/NoPage/NoPage';
 import Referencer from '../../Pages/Referencer/Referencer';
 
+
 const AppRouter = () => {
   return (
     <Router>
@@ -19,6 +20,7 @@ const AppRouter = () => {
         <Route path="/cv" element={<CV />} />
         <Route path="*" element={<NoPage />} />
         <Route path="referencer" element={<Referencer />} />
+        
       </Routes>
     </Router>
   );
