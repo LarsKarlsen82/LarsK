@@ -241,6 +241,7 @@
 // export default Home;
 
 
+// Home.jsx
 import React, { useState, useEffect, useRef } from 'react';
 import backgroundImage from '/images/NL.jpg';
 
@@ -326,10 +327,25 @@ const Home = () => {
       createParticles();
       animate();
 
-      const animationDuration = 20000; // milliseconds
-      setTimeout(() => {
-        setIsAnimationPlaying(false);
-      }, animationDuration);
+      const handleMouseMove = (event) => {
+        particles.forEach((particle) => {
+          const dx = particle.x - event.clientX;
+          const dy = particle.y - event.clientY;
+          const distance = Math.sqrt(dx * dx + dy * dy);
+
+          if (distance < 100) {
+            particle.vx = dx * 0.05;
+            particle.vy = dy * 0.05;
+          }
+        });
+      };
+
+      canvas.addEventListener('mousemove', handleMouseMove);
+
+      // Cleanup function
+      return () => {
+        canvas.removeEventListener('mousemove', handleMouseMove);
+      };
     }
   }, [isAnimationPlaying]);
 
