@@ -7,6 +7,7 @@ import Learn from '../../Pages/Learn/Learn';
 import CV from '../../Pages/CV/CV';
 import NoPage from '../../Pages/NoPage/NoPage';
 import Referencer from '../../Pages/Referencer/Referencer';
+import Terminator from '../../Pages/Test/Terminator';
 
 
 const AppRouter = () => {
@@ -20,6 +21,7 @@ const AppRouter = () => {
         <Route path="/cv" element={<CV />} />
         <Route path="*" element={<NoPage />} />
         <Route path="referencer" element={<Referencer />} />
+        <Route path="terminator" element={<Terminator />} />
         
       </Routes>
     </Router>
