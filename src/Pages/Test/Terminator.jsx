@@ -1,5 +1,4 @@
-// Terminator.jsx
-
+//Terminator.jsx
 import React from 'react';
 
 const Terminator = () => {
@@ -7,7 +6,12 @@ const Terminator = () => {
   const terminatorUrl = '/terminator.html';
 
   return (
-    <iframe src={terminatorUrl} title="Terminator" width="100%" height="650vh" frameBorder="0" />
+    <iframe 
+      src={terminatorUrl} 
+      title="Terminator" 
+      className="w-full min-h-screen md:full md:h-full lg:h-full xl:h-full" 
+      frameBorder="0" 
+    />
   );
 };
 
