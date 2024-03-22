@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <>
-      <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800 mt-12 ">
+      <figure className="md:flex rounded-xl p-8 md:p-0 dark:bg-slate-800 mt-12 ">
         <div className="group">
           <img
             className="w-64 h-64 md:w-1/2 md:h-auto md:rounded-none rounded-full mx-auto transition-transform duration-300 ease-in-out transform group-hover:scale-110 pl-2 pb-8"
