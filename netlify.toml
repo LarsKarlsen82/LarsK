@@ -2,4 +2,7 @@
 from = "/*"
 to = "index.html"
 status = 200
-/terminator.html    /terminator    200
+
+from = "/terminator.html"
+to = "/terminator "
+status = 200
