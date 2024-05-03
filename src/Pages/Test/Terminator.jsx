@@ -54,7 +54,7 @@ const Terminator = () => {
         onChange={handleVolumeChange}
         className="fixed bottom-4 right-16 w-36 bg-gray-200 rounded-lg shadow"
       />
-      <h1 style={{ textAlign: 'center' }}>Your Title</h1>
+      
       <button
         onClick={handleHomeButtonClick}
         className="absolute top-0 right-0 mt-4 mr-4 px-4 py-2 bg-gray-200 rounded-lg shadow"
