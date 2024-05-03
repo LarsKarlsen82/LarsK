@@ -21,7 +21,6 @@ const AppRouter = () => {
         <Route path="/cv" element={<CV />} />
         <Route path="/referencer" element={<Referencer />} />
         <Route path="/terminator" element={<Terminator />} />
-        <Route path="/terminator.html" element={<Navigate to="/terminator" replace />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </Router>
