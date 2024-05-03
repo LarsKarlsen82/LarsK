@@ -1,5 +1,5 @@
 import React from 'react';
-import errorGif from '../../assets/images/Error_404.gif';
+import errorGif from '../../Assets/images/Error_404.gif';
 
 const NoPage = () => {
   return (

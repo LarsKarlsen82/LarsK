@@ -32,6 +32,11 @@ const Terminator = () => {
     setVolume(newVolume);
   };
 
+  // Function to handle home button click
+  const handleHomeButtonClick = () => {
+    window.location.href = "/"; // Redirect to the home page
+  };
+
   return (
     <div>
       <iframe 
@@ -49,7 +54,7 @@ const Terminator = () => {
         onChange={handleVolumeChange}
         className="fixed bottom-4 right-16 w-36 bg-gray-200 rounded-lg shadow"
       />
-            <button
+      <button
         onClick={handleHomeButtonClick}
         className="fixed bottom-4 left-16 px-4 py-2 bg-gray-200 rounded-lg shadow"
       >
