@@ -32,11 +32,6 @@ const Terminator = () => {
     setVolume(newVolume);
   };
 
-  // Function to handle iframe click
-  const handleIframeClick = () => {
-    window.location.href = '/Terminator.jsx'; // Redirect to Terminator.jsx
-  };
-
   return (
     <div>
       <iframe 
@@ -44,7 +39,6 @@ const Terminator = () => {
         title="Terminator" 
         className="w-full min-h-screen md:full md:full lg:h-full xl:h-full" 
         frameBorder="0" 
-        onClick={handleIframeClick} // Add event listener to handle iframe click
       />
       <input
         type="range"
