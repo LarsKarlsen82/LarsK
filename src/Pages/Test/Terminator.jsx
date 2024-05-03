@@ -38,7 +38,7 @@ const Terminator = () => {
   };
 
   return (
-    <div>
+    <div style={{ position: 'relative' }}>
       <iframe 
         src="/terminator.html" 
         title="Terminator" 
@@ -54,9 +54,10 @@ const Terminator = () => {
         onChange={handleVolumeChange}
         className="fixed bottom-4 right-16 w-36 bg-gray-200 rounded-lg shadow"
       />
+      <h1 style={{ textAlign: 'center' }}>Your Title</h1>
       <button
         onClick={handleHomeButtonClick}
-        className="fixed bottom-4 left-16 px-4 py-2 bg-gray-200 rounded-lg shadow"
+        className="absolute top-0 right-0 mt-4 mr-4 px-4 py-2 bg-gray-200 rounded-lg shadow"
       >
         Home
       </button>
