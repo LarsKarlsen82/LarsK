@@ -49,6 +49,12 @@ const Terminator = () => {
         onChange={handleVolumeChange}
         className="fixed bottom-4 right-16 w-36 bg-gray-200 rounded-lg shadow"
       />
+            <button
+        onClick={handleHomeButtonClick}
+        className="fixed bottom-4 left-16 px-4 py-2 bg-gray-200 rounded-lg shadow"
+      >
+        Home
+      </button>
     </div>
   );
 };
